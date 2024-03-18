@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chatroom
+  annotations:
+    circleci.com/project-slug: github/parzival2332/chatroom101
+spec:
+  type: service
+  owner: guest
+  lifecycle: experimental
